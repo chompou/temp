@@ -167,5 +167,4 @@ for step in tqdm(range(1000)):
 
     obs, reward, _, _ = env.step(action)
 
-env1.release()
 env1.play()
